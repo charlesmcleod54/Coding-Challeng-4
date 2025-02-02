@@ -68,3 +68,15 @@ let taxRate = 0.07;
 
 let tax = calculateTax(amount, taxRate);
 console.log('The calculated tax on $${amount} at a tax rate of ${taxRate * 100}% is: $${tax}');
+// Task 9
+const applyDiscount = function(price, discountPercentage) {
+    let discount = price * (discountPercentage / 100);
+    let discountedPrice = price - discount;
+    return discountedPrice;
+};
+
+let price = 175;
+let discountPercentage = 12;
+
+let discountedPrice = applyDiscount(price, discountPercentage);
+console.log('The price after applying a ${discountPercentage}% discount is: $${discountedPrice}');
