@@ -80,3 +80,13 @@ let discountPercentage = 12;
 
 let discountedPrice = applyDiscount(price, discountPercentage);
 console.log('The price after applying a ${discountPercentage}% discount is: $${discountedPrice}');
+// Task 10
+const calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount / 10);
+    return points;
+};
+
+let purchasedAmount = 135;
+
+let pointsEarned = calculatePoints(purchasedAmount);
+console.log('Points earned on a $${purchasedamount} purchase: ${pointsEarned} points');
