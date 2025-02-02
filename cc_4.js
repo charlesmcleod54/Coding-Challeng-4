@@ -45,3 +45,9 @@ let employee = {
 for (let key in employee) {
     console.log('${key}: ${employee[key]}');
 }
+// Task 6 
+let products = ["Laptop", "Mouse", "Keyboard"];
+
+for (let product of products) {
+    console.log('Product: ${product}');
+}
