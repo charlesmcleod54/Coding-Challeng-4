@@ -17,3 +17,12 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 console.log('Total sales: $${totalSales}');
+// Task 3
+let stock = 10;
+
+while (stock >0) {
+    console.log('Stock remaining: ${stcok}');
+    stock--;
+}
+
+console.log("Stock has been depleted.");
