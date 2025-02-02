@@ -26,3 +26,12 @@ while (stock >0) {
 }
 
 console.log("Stock has been depleted.");
+// Task 4
+let responses = 0;
+
+do {
+    console.log('Response count: ${responses}');
+    responses++;
+} while (responses < 3);
+
+console.log("Survey completed.");
